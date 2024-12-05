@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paolo and Ira Wedding</title>
+    
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  
+  <body class="">
+    <button class="btn-close btn-toggle">
+      <span></span>
+    </button>
+    <header>
+      <div class="navigation">
+        <button class="btn-close btn-toggle"></button>
+        <ul>
+          <li><a href="#getting-married">We're Getting Married</a></li>
+          <li><a href="#countdown">Countdown</a></li>
+          <li><a href="#our-story">Our Story</a></li>
+          <li><a href="#about">About the Wedding</a></li>
+          <li><a href="#location">When & Where</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <audio id="audio" src="assets/until_i_found_her.mp3"></audio>
+    <div class="intial-screen-load hidden">
+      <img class="screen" src="assets/DSC00122.jpg" />
+      <img class="logo" src="assets/logo2.png" />
+      <button id="playMusic">OPEN INVITATION</button>
+      <div class="intial-screen-load__overlay"></div>
+    </div>
+
+    <div class="hero" id="getting-married">
+      <div class="hero-slider">
+        <div class="slider"><img src="assets/DSC00207.jpg" /></div>
+        <div class="slider img-center"><img src="assets/DSC00109.jpg" /></div>
+        <div class="slider img-right"><img src="assets/DSC00071.jpg" /></div>
+        <div class="slider img-center"><img src="assets/DSC00179.jpg" /></div>
+        <div class="slider img-right"><img src="assets/DSC00122.jpg" /></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="text-heading">THE WEDDING OF</p>
+        <h1>PAOLO & IRA</h1>
+        <p class="text-date">01. 19. 2025</p>
+      </div>
+    </div>
+
+    <div class="wedding-countdown" id="countdown">
+      <div class="countdown">
+        <div class="time">
+          <span id="days">00</span>
+          <p>Days</p>
+        </div>
+        <div class="time">
+          <span id="hours">00</span>
+          <p>Hours</p>
+        </div>
+        <div class="time">
+          <span id="minutes">00</span>
+          <p>Minutes</p>
+        </div>
+        <div class="time">
+          <span id="seconds">00</span>
+          <p>Seconds</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-story" id="our-story">
+      <div class="our-story__wrapper">
+        <div class="heading">
+          <h2>Our Story</h2>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <h3>Kim Paolo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          
+            <ul class="socmed">
+              <li><a href="#"><img class="icon" src="assets/fb.png" /></a></li>
+              <li><a href="#"><img class="icon" src="assets/ig.png" /></a></li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <img class="couple" src="assets/and.png" />
+          </div>
+          <div class="col-4">
+            <span>
+              <h3>Camille Ira</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <ul class="socmed">
+                <li><a href="#"><img class="icon" src="assets/fb.png" /></a></li>
+                <li><a href="#"><img class="icon" src="assets/ig.png" /></a></li>
+              </ul>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="about-the-event" id="about">
+      <div class="about-the-event__wrapper">
+        <div class="heading">
+          <h2>About the Wedding</h2>
+          <p class="description">Celebrate love and unity in an event to remember! Join us for a magical day filled with heartfelt moments, joyous laughter, and cherished memories. Here's what you can look forward to:</p>
+        </div>
+
+        <div class="lists">
+          <div class="list">
+            <h4>What to Wear</h4>
+            <div class="swatches">
+              <span class="swatch" style="background: #f5ece7;"></span>
+              <span class="swatch" style="background: #f4e4d7;"></span>
+              <span class="swatch" style="background: #debcb2;"></span>
+              <span class="swatch" style="background: #d6a294;"></span>
+              <span class="swatch" style="background: #bb877a;"></span>
+            </div>
+            <p>Preferably in our wedding colors. Kindly refrain from wearing white, as it is reserved for the Bride and Groom.</p>
+          </div>
+
+          <div class="list">
+            <h4>Ceremony Highlights</h4>
+            <p>Witness the magical union in a beautifully orchestrated ceremony featuring heartfelt vows, stunning decor, and a touch of tradition.</p>
+          </div>
+
+          <div class="list">
+            <h4>Parking Area</h4>
+            <p>Ample parking is available for all guests during our reception area, ensuring a hassle-free arrival. Clear directions that will help guide you to your spot.</p>
+          </div>
+
+          <div class="list">
+            <h4>Snap and Share</h4>
+            <p>Snap, Share, and Celebrate!
+              Capture the joy, spread the love, and make the memories last forever—don’t forget to use our hashtag!
+              
+              <span>#PAOLOfoundhismIRAcle</span>
+            </p>
+          </div>
+
+          <div class="list">
+            <h4>Food & Drinks</h4>
+            <p>Savor an exquisite culinary experience featuring a variety of dishes and beverages. From gourmet delights to refreshing drinks, our menu caters to every palate.</p>
+          </div>
+
+          <div class="list">
+            <h4>Gift Guide</h4>
+            <p>The couple feels incredibly blessed with all that they have and cherish your presence and prayers above all else. That is truly all they ask.
+              However, for those who wish to honor them with a gift, a monetary contribution would be greatly appreciated. Your generosity will help them embark on their new journey together and create lasting memories.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="location" id="location">
+      <div class="heading">
+        <h2>When & Where</h2>
+        <p class="description">
+          Celebrate this joyous occasion at a stunning venue that perfectly sets the tone for love and togetherness. <br>
+          For your convenience, you can easily navigate to both locations using the MAP for directions. We look forward to celebrating with you and creating beautiful memories together!
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <h3>Church</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3853.009527947381!2d120.66615867590947!3d15.047589265975283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f71e5f4a9ceb%3A0x5288ed6552afcb68!2sSan%20Agustin%20Parish%20Church%20-%20City%20of%20San%20Fernando%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1733371197959!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>The wedding ceremony will take place at St. Augustine Parish, San Agustin, City of San Fernando, Pampanga, on January 19, 2025 at 2:30 p.m.</p>
+        </div>
+  
+        <div class="col-6">
+          <h3>Reception</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3853.8033868367656!2d120.70458527590883!3d15.00361556708111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f7f498988497%3A0x69bc41564733ae56!2sMula%20de%20Victoria!5e0!3m2!1sen!2sph!4v1733371230653!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>Afterward, we invite you to join us for the reception at Mula De Victoria, Sto. Tomas, Pampanga.</p>
+        </div>
+      </div>
+
+      <p class="question">If your have question regarding on the location or about the wedding just contact us through our social media accounts. Thankyou!</p>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <div class="heading">
+        <h2>Gallery</h2>
+        <p class="description">
+          Here are the videos and photos from our Prenup! We hope these moments capture the love and excitement we shared during this special time leading up to our big day. From the candid laughs to the heartfelt glances, these memories hold a special place in our hearts, and we’re so excited to share them with you!
+        </p>
+      </div>
+      <div class="gallery_wrapper">
+        <div class="main-slider">
+          <div class="slider"> <img src="assets/DSC00071.jpg" /> </div>
+          <div class="slider"> <img src="assets/DSC00109.jpg" /> </div>
+          <div class="slider"> <img src="assets/DSC00122.jpg" /> </div>
+          <div class="slider"> <img src="assets/DSC00179.jpg" /> </div>
+          <div class="slider"> <img src="assets/DSC00207.jpg" /> </div>
+        </div>
+  
+        <div class="thumb-slider">
+          <div class="slider"> <img src="assets/DSC00071.jpg" /> </div>
+          <div class="slider"> <img src="assets/DSC00109.jpg" /> </div>
+          <div class="slider"> <img src="assets/DSC00122.jpg" /> </div>
+          <div class="slider"> <img src="assets/DSC00179.jpg" /> </div>
+          <div class="slider"> <img src="assets/DSC00207.jpg" /> </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+  </body>
+</html>

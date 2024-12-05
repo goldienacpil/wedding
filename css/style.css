@@ -421,7 +421,7 @@ header ul li a {
 .our-story h3 {
   font-family: "britanny", sans-serif;
   font-size: 50px;
-  margin-bottom: -25px;
+  margin-bottom: 0;
 }
 .our-story .socmed {
   list-style: none;
@@ -800,12 +800,13 @@ header ul li a {
 }
 .btn-toggle span {
   position: absolute;
+  left: 0;
 }
 .btn-toggle span::before {
   content: "";
   position: absolute;
   top: 10px;
-  left: -6px;
+  left: 0;
   width: 30px;
   height: 30px;
   border-left: 1px solid #060101;
